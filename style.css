@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    font-family:'inter';
+    
+}
+
+#menu-superior{
+    background: #303030;
+    height: 475px;
+    font-style: normal;
+    font-family:'inter';
+}
+
+#titulo-menu-superior{
+    color: #FFF;
+    
+    font-size: 60px;
+    font-style: normal;
+    letter-spacing: -1.5px;
+    margin-right: 60px;
+    padding-top: 206px;
+    padding-left: 170px;
+    letter-spacing: 6px;
+}
+
+#subtitulo-menu-superior {            
+    color: #FFF;
+    font-feature-settings: 'liga' off;
+    padding-left: 170px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 144px;
+    letter-spacing: 6px;
+    font-family:'inter';
+    
+}
+
+#menu-informativo{
+    background: #F9F9F9;
+    flex-shrink: 0;
+    
+    padding-left: 300px;
+    padding-top: 96px;
+    padding-right: 99px;
+    padding-bottom: 66px;
+    border: 0px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;     
+    grid-template-columns: left; 
+    letter-spacing: 2px;
+}
+
+.text-inf{
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 70% */
+
+}
+
+.text-inf-p{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#menu-desenvolvimento{
+    background: #FFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr;     
+    grid-template-columns: center; 
+}
+
+#img-desen{
+    padding-left: 150px;
+    padding-bottom: 50px;
+    padding-right: 160px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    border: 30px;
+    display: flex;
+    width: 650px;
+}
+
+.tex-desen{
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+
+}
+
+#titulo-desen{
+    margin-top: 340px;
+    text-align:left;
+    width: 735px;
+    height: 70px;
+    border: 0x;
+    font: 'raleway';
+    padding-left: 170px;
+    letter-spacing: 2px;
+    font-family:'inter';
+    font-size: 35px;
+}
+
+#text-desen-p{
+    font-weight: 300;
+    line-height: 30px;
+    padding-left: 170px;
+    letter-spacing: 3px;
+    text-align: left;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family:'inter';
+    font-size: 17px;
+}
+#menu-conclusao{
+    background-color: #303030;
+    text-align: center;   
+    
+}
+
+#text-conclusao{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+}
+
+input{
+    width: 400px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+ button{
+    width: 286px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #C07212;
+    margin-bottom: 40px;
+    border: 0px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;    
+    color: white;
+
+ }
+
+
